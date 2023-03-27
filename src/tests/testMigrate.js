@@ -6,6 +6,7 @@ require('../models/Category')
 require('../models/Product')
 require('../models/ProductImg')
 require('../models/Cart')
+require('../models/Purchase')
 require('../models')
 
 const main = async() => {
