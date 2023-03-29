@@ -64,7 +64,7 @@ test('Update/api/v1/products/:id should return 200', async () => {
 test("POST /products/:id/image should set the products images", async () => {
   const imgTest = {
     url: "test.img",
-    filename: "test.img"
+    publicId: "test.img"
   }
   const image = await ProductImg.create(imgTest)
   const res = await request(app)
